@@ -4,7 +4,10 @@ attrs==26.1.0
 certifi==2026.2.25
 cffi==2.0.0
 charset-normalizer==3.4.6
--e git+https://github.com/Code-With-Fatima-Dev/essay-kit.git@85b05a9e7e045b1d953a4a8f217b69499432ea2e#egg=chatkit_starter_backend&subdirectory=chatkit\backend
+fastapi
+uvicorn
+python-dotenv
+httpx
 click==8.3.1
 colorama==0.4.6
 cryptography==46.0.6
@@ -20,8 +23,7 @@ idna==3.11
 Jinja2==3.1.6
 jiter==0.13.0
 jsonschema==4.26.0
-jsonschema-specifications==2025.9.1
--e git+https://github.com/Code-With-Fatima-Dev/essay-kit.git@4d99af667a2262e317d6fbf79cfcf416930014a3#egg=managed_chatkit_backend
+jsonschema-specifications==2025
 MarkupSafe==3.0.3
 mcp==1.26.0
 openai==2.30.0
